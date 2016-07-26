@@ -1,0 +1,218 @@
+html,body{
+	background-image: url(../images/background.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-color:#1b1b1b;
+}
+
+.display thead{
+	background-color:#434343;
+}
+
+.home{
+	background-image:url(../images/home.png);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	left: 130px;
+	top: 31px;
+	width: 39px;
+	height: 30px;
+	border:0;
+  	z-index: 59;
+}
+
+#table1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: rgb(255, 198, 2);
+	line-height: 0.5;
+	text-align: left;
+	position: absolute;
+	left: 90px;
+	top: 100px;
+	z-index: 2;
+}
+
+#table1 form{
+	position:absolute;
+	top: 50px;
+	font-size:20px;
+}
+
+#data{
+	color: white;
+}
+
+#datatable1{
+	position: absolute;
+	top: 333px;
+	width:97%;
+	font-size:16px;
+	margin-left:15px;
+}
+
+#datatable2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: rgb(255, 198, 2);
+}
+
+#datatable3{
+	color: white;
+	position: absolute;
+	top: 193px;
+	width:97%;
+	font-size:16px;
+	margin-left:15px;
+}
+
+.logout{
+	background-image: url(../images/logout.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width:110px;
+	height:25px;
+	position:absolute;
+	top: 38px;
+	left: 1160px;
+	color: #fff;
+	text-align:center;
+	font-size:16px;
+	padding: 0px 0px 0px 14px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #459A00;
+}
+
+#data input[type="text"]{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	height: 25px;
+	padding-left:0.5em;
+	outline: none;
+	border: initial;
+	border-radius: 5px;
+}
+
+input[type="submit"]{
+	font-size: 18px;
+	background: #5CCD00;
+	background: -moz-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#5CCD00),color-stop(100%,#4AA400));
+	background: -webkit-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -o-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -ms-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5CCD00', endColorstr='#4AA400',GradientType=0);
+	padding: 10px 15px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #459A00;
+	margin-left: 430px;
+}
+
+.button{
+	font-size: 8px;
+	background: #5CCD00;
+	background: -moz-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#5CCD00),color-stop(100%,#4AA400));
+	background: -webkit-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -o-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: -ms-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background: linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5CCD00', endColorstr='#4AA400',GradientType=0);
+	padding: 6px 15px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #459A00;
+}
+
+#insert{
+	position: absolute;
+	padding: 10px 15px;
+	left: 170px;
+	top: 170px;
+}
+
+#confirm{
+	position: absolute;
+	padding: 10px 15px;
+	left: 600px;
+	top: 120px;
+}
+
+#confiirm{
+	position: absolute;
+	padding: 10px 15px;
+	left: 580px;
+	top: 180px;
+	z-index:9999;
+}
+
+#add_student_form{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: rgb(255, 198, 2);
+	line-height: 0.5;
+	text-align: left;
+	position: absolute;
+	left: 118px;
+	top: 131px;
+	z-index: 2;
+}
+
+form{
+	font-size: 25px;
+	color: rgb(255, 198, 2);
+	line-height: 200%;
+	text-align: left;
+	position: absolute;
+	left: 31px;
+	top: 73px;
+	z-index: 2;
+	width: 1053px;
+	height: 635px;
+}
+
+.input_class_stud{
+	border: 0;
+	background-color: #262626;
+	width: 280px;
+	font-size: 24px;
+	border-radius: 2px;
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	margin-left: 3px;
+	color: #fff;
+}
+
+#view_id{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: rgb(255, 198, 2);
+	line-height: 0.5;
+	text-align: left;
+	position: absolute;
+	left: 118px;
+	bottom: 131px;
+	z-index: 2;
+}
